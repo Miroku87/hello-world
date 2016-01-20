@@ -43,6 +43,7 @@ To traffic the VPAID HTML5 on Admire you should follow these steps:
   ```XML
   <AdParameters><![CDATA[{"clickThru":"http://media.adrcdn.com/ads/exit.html","clickTrackers":["http://evt.adrcntr.com/e/?id=84a5907a9017de718e602745ddbfec3d&ci=&ho=HOST&pl=default&cf=0&ff=0&el=video&rn=~RANDOM~&ob=default&ev=scrc&mo=0&fof=1&foe=1&foo=1&ms=&ca=0&rt=p"],"mediapath":"http://media.adrcdn.com/ads/Adrime/3130343734/112106/","duration":"00:00:10","id":"84a5907a9017de718e602745ddbfec3d","usePlugins":true,"videoName":"video.mp4","initialAudio":true,"VPAIDTabsPlugin":{"panels":[{"id":"descrizione","hasVideo":false,"videoName":"","feed":"none","gallery":"none"},{"id":"instagram","hasVideo":false,"videoName":"","feed":{"type":"instagram","token":"2304570340.0f095de.b76a9bf55d7d4ecb844dbe24df8451ba","webo_devid":"0f095de7f7864e08966c10a0c52122fa","from_userid":"2304570340","hashtag":"barilla"},"gallery":"none"},{"id":"video","hasVideo":true,"videoName":"video_2.mp4","feed":"none","gallery":"none"}]}}]]></AdParameters>
   ```
+ 6. Please remember to change the `id` and `mediapath` values.
  6. From here behave like it's a normal VAST.
  7. Mind that actually Admire VAST Player does not support HTML5 VPAIDs.
   
